@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-common/api-common.iml" filepath="$PROJECT_DIR$/api-common/api-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-feign/eureka-feign.iml" filepath="$PROJECT_DIR$/eureka-feign/eureka-feign.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-ribbon/eureka-ribbon.iml" filepath="$PROJECT_DIR$/eureka-ribbon/eureka-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-A/service-A.iml" filepath="$PROJECT_DIR$/service-A/service-A.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-standard-code.iml" filepath="$PROJECT_DIR$/.idea/spring-standard-code.iml" />
