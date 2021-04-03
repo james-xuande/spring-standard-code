@@ -7,7 +7,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/service-A/pom.xml" />
-        <option value="$PROJECT_DIR$/service-B/pom.xml" />
         <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-feign/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-ribbon/pom.xml" />
