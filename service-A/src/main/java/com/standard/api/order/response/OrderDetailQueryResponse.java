@@ -14,7 +14,7 @@ public class OrderDetailQueryResponse {
     private String orderId;
 
     @ApiModelProperty("订单详情")
-    private String goodsinfo;
+    private String orderinfo;
 
 
 
