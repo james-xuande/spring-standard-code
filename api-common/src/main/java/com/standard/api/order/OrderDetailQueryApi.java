@@ -14,7 +14,7 @@ public interface OrderDetailQueryApi {
     //springboot2 带的post注解
     @RequestMapping(value = "/order/detailquery",method = RequestMethod.POST)
     //这里valid 进行参数校验生效，具体校验信息在requestVo中注解实现校验
-    OrderDetailQueryResponse orderQuery(OrderDetailQueryRequest requestVo);
+    OrderDetailQueryResponse orderQuery(OrderDetailQueryRequest requestVo) throws InterruptedException;
 
 
     //接口名称

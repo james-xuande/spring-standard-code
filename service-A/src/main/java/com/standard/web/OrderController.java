@@ -26,7 +26,8 @@ public class OrderController implements OrderDetailQueryApi {
     OrderService orderService = new OrderService();
 
 
-    public OrderDetailQueryResponse orderQuery(@Valid @RequestBody OrderDetailQueryRequest requestVo) {
+    public OrderDetailQueryResponse orderQuery(@Valid @RequestBody OrderDetailQueryRequest requestVo) throws InterruptedException {
+
         logger.info("==>订单详情查询接口 请求数据:" + JSON.toJSONString(requestVo));
         OrderDetailQueryResponse restResponse = new OrderDetailQueryResponse();
         OrderDetailQueryRequest db_resp = orderService.get_order(requestVo.getOrderId());
@@ -38,6 +39,7 @@ public class OrderController implements OrderDetailQueryApi {
             logger.info("<==订单详情查询接口 返回数据:" + JSON.toJSONString(restResponse));
             return restResponse;
         }
+
 
         restResponse.setCode("9999");
         restResponse.setCodeDesc("订单不存在");
