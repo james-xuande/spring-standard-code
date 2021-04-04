@@ -5,7 +5,7 @@
 
     <groupId>com.standard</groupId>
     <artifactId>service-A</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>service-A</name>
@@ -90,7 +90,7 @@
         <dependency>
             <groupId>com.standard</groupId>
             <artifactId>api-common</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
@@ -117,5 +117,11 @@
             </plugin>
         </plugins>
     </build>
+    <repositories>
+        <repository>
+            <id>private</id>
+            <url>http://39.104.94.98:18080/repository/maven-public/</url>
 
+        </repository>
+    </repositories>
 </project>

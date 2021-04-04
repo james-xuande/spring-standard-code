@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/eureka-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/api-common/pom.xml" />
+        <option value="$PROJECT_DIR$/service-B/pom.xml" />
       </list>
     </option>
   </component>

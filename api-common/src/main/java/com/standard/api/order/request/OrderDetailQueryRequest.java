@@ -24,5 +24,7 @@ public class OrderDetailQueryRequest {
     @ApiModelProperty("用户姓名")
     private String name;
 
+    @ApiModelProperty("订单详情")
+    private String orderinfo;
 
 }

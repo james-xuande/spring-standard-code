@@ -9,7 +9,10 @@ import lombok.Setter;
 @Getter
 @Setter
 public class OrderDetailQueryResponse {
-
+    @ApiModelProperty("状态码")
+    private String code;
+    @ApiModelProperty("状态描述")
+    private String codeDesc;
     @ApiModelProperty("订单编号")
     private String orderId;
 

@@ -15,4 +15,13 @@ public interface OrderDetailQueryApi {
     @RequestMapping(value = "/order/detailquery",method = RequestMethod.POST)
     //这里valid 进行参数校验生效，具体校验信息在requestVo中注解实现校验
     OrderDetailQueryResponse orderQuery(OrderDetailQueryRequest requestVo);
+
+
+    //接口名称
+    @ApiOperation(value = "订单创建接口", notes = "订单创建")
+    //springboot2 带的post注解
+    @RequestMapping(value = "/order/create_to_db",method = RequestMethod.POST)
+    //这里valid 进行参数校验生效，具体校验信息在requestVo中注解实现校验
+    OrderDetailQueryResponse orderCreate(OrderDetailQueryRequest requestVo);
+
 }

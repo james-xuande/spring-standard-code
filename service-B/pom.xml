@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.standard</groupId>
-	<artifactId>eureka-feign</artifactId>
-	<version>1.0.0</version>
+	<artifactId>service-B</artifactId>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>eureka-feign</name>
+	<name>service-B</name>
 	<description>Spring Cloud project</description>
 
 	<parent>
@@ -80,19 +80,19 @@
 		</dependency>
 
 
-		<!--        引入其他模块-->
-		<!--		<dependency>-->
-		<!--			<groupId>com.standard</groupId>-->
-		<!--			<artifactId>api-common</artifactId>-->
-		<!--			<version>1.0.0</version>-->
-		<!--			<scope>compile</scope>-->
-		<!--		</dependency>-->
+<!--		        引入其他模块-->
+<!--				<dependency>-->
+<!--					<groupId>com.standard</groupId>-->
+<!--					<artifactId>api-common</artifactId>-->
+<!--					<version>1.0.0</version>-->
+<!--					<scope>compile</scope>-->
+<!--				</dependency>-->
 
 		<!--nexus引入其他项目jar-->
 		<dependency>
 			<groupId>com.standard</groupId>
 			<artifactId>api-common</artifactId>
-			<version>1.0.0</version>
+			<version>1.0.1</version>
 		</dependency>
 
 	</dependencies>
