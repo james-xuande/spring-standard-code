@@ -70,13 +70,31 @@
 		</dependency>
 
 
+
+
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+
+
 		<!--        引入其他模块-->
+		<!--		<dependency>-->
+		<!--			<groupId>com.standard</groupId>-->
+		<!--			<artifactId>api-common</artifactId>-->
+		<!--			<version>1.0.0</version>-->
+		<!--			<scope>compile</scope>-->
+		<!--		</dependency>-->
+
+		<!--nexus引入其他项目jar-->
 		<dependency>
 			<groupId>com.standard</groupId>
 			<artifactId>api-common</artifactId>
 			<version>1.0.0</version>
-			<scope>compile</scope>
 		</dependency>
+
 	</dependencies>
 
 	<dependencyManagement>
@@ -99,5 +117,11 @@
 			</plugin>
 		</plugins>
 	</build>
+	<repositories>
+		<repository>
+			<id>private</id>
+			<url>http://39.104.94.98:18080/repository/maven-public/</url>
 
+		</repository>
+	</repositories>
 </project>
